@@ -1,0 +1,11 @@
+
+config queue 'eth1'
+	option qdisc 'fq_codel'
+	option script 'simple.qos'
+	option qdisc_advanced '0'
+	option linklayer 'none'
+	option enabled '1'
+	option interface 'eth0.2'
+	option download '48000'
+	option upload '2250'
+
